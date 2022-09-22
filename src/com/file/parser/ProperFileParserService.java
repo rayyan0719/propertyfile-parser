@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.Properties;
 
 public class ProperFileParserService {
-	private String getPropertyValueForKey(String propertyFileCodeValue, String propertyFileName) throws IOException {
+	public String getPropertyValueForKey(String propertyFileCodeValue, String propertyFileName) throws IOException {
 		String entityCode = "";
 		Map<String, String> propFileMap = new HashMap<>();
 		propFileMap.put("propFileKey", "propFileValue");
